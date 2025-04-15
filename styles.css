@@ -1,0 +1,170 @@
+/* styles.css */
+/* ===== CSS Variables ===== */
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --text: #434455;
+  --light: #f4f4fd;
+  --white-background: #ffffff;
+  --accent: #e7e9fc;
+}
+
+/* ===== Base Styles ===== */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text);
+  background-color: var(--white-background);
+}
+
+/* ===== Header Styles ===== */
+header {
+  border-bottom: 1px solid var(--accent);
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li a {
+  font-weight: 500;
+  color: var(--dark);
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+  color: var(--pressed-state);
+}
+
+address ul {
+  list-style: none;
+}
+
+address ul li a {
+  color: var(--text);
+  font-style: normal;
+}
+
+address ul li a:hover,
+address ul li a:focus {
+  color: var(--pressed-state);
+}
+
+/* ===== Hero Section ===== */
+section:first-of-type {
+  background-color: var(--dark);
+  text-align: center;
+}
+
+section:first-of-type h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-background);
+}
+
+section:first-of-type button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  background-color: var(--primary-brand);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+section:first-of-type button:hover,
+section:first-of-type button:focus {
+  background-color: var(--pressed-state);
+}
+
+/* ===== Features Section ===== */
+section:nth-of-type(2) h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--dark);
+}
+
+section:nth-of-type(2) ul {
+  list-style: none;
+}
+
+section:nth-of-type(2) h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+
+/* ===== What We Do Section ===== */
+section:nth-of-type(3) h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--dark);
+}
+
+section:nth-of-type(3) ul {
+  list-style: none;
+}
+
+/* ===== Team Section ===== */
+section:nth-of-type(4) {
+  background-color: var(--light);
+}
+
+section:nth-of-type(4) h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--dark);
+}
+
+section:nth-of-type(4) ul {
+  list-style: none;
+}
+
+section:nth-of-type(4) h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+
+/* ===== Footer Styles ===== */
+footer {
+  background-color: var(--dark);
+}
+
+footer a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+  text-decoration: none;
+}
+
+footer p {
+  color: var(--light);
+}
